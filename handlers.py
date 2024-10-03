@@ -11,7 +11,7 @@ router = Router()
 
 user_state = {}
 user_data = {}
-botmsg=bot = Bot(token="7097024433:AAF47uZwYwtnns9fOWVa68olwIT6B9HDy7o", parse_mode=ParseMode.HTML)
+botmsg=bot = Bot(token="YourToken", parse_mode=ParseMode.HTML)
 
 
 @router.message(Command("start"))
